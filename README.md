@@ -1,6 +1,6 @@
 # GBM Dual_GNN
 
-This repository will hold the PyTorch code of our paper *A Randomness-Constrained Dual Graph Neural Network for the Diagnosis of Glioblastoma Multiforme Progression*.
+This repository will hold the PyTorch code of our paper: *A Randomness-Constrained Dual Graph Neural Network for the Diagnosis of Glioblastoma Multiforme Progression*.
 
 The complete codes will be released once the paper is published.
 
