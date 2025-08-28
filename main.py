@@ -11,7 +11,9 @@ import random
 import time
 import argparse
 from torch.utils.data import DataLoader
+
 bags = 64
+
 
 def cast_cuda(input):
 
@@ -322,3 +324,4 @@ if __name__ == "__main__":
         for epoch in range(0, 1):
             train_loss, tr_Accuracy, tr_Precision, tr_Recall, tr_F1, bankbatches, bankbatch, \
             ts_Accuracy, ts_Precision, ts_Recall, ts_F1, ts_rd, TPR, TNR, AUC = train(model, optimizer, test_loader,train_loader, save_path, irun, fold)
+
